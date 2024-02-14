@@ -6,7 +6,7 @@ import { handleError } from "../../middleware/handleAsyncError.js";
 import { AppError } from "../../utils/AppError.js";
 // import Joi from "joi";
 import { signUpSchema,loginSchema } from "./user.vaildator.js";
-import { emailTemplate } from "../../email/emailTemplate.js";
+// import { emailTemplate } from "../../email/emailTemplate.js";
 // import {string} from "Joi"
 import pkg from 'bcrypt'
 import { nanoid } from 'nanoid'
